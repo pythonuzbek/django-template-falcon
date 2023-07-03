@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "falcon-clone-p9"
+version = "0.1.0"
+description = ""
+authors = ["nusratullo2004 <122892486+nusratullo2004@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "falcon_clone_p9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+pillow = "^9.4.0"
+django-crispy-forms = "^2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
